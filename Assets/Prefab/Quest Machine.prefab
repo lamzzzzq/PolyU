@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5710124807149977850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5710124807150228292}
+  - component: {fileID: 5710124807161229300}
+  - component: {fileID: 5710124807161229598}
+  - component: {fileID: 5710124807161219546}
+  - component: {fileID: 5710124807149977851}
+  m_Layer: 0
+  m_Name: Quest Machine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5710124807150228292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710124807149977850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.34, y: -0.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5710124807161229300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710124807149977850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994bdb45f0cf15c4cbb1b065872d32bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_questDatabases:
+  - {fileID: 11400000, guid: 35906f365d0c8d34cbbf1192509fc778, type: 2}
+  m_questDialogueUI: {fileID: 8847527646516668083, guid: 5aa63d9752b5d0e4fa9a66f70ea86182,
+    type: 3}
+  m_questJournalUI: {fileID: 6143312809016499504, guid: 4972e3adb65bb9445aa42f52ea83515e,
+    type: 3}
+  m_questAlertUI: {fileID: 6811243254989481883, guid: cf4beaa5eef60414ea73452fb67f6fb1,
+    type: 3}
+  m_questHUD: {fileID: 0}
+  m_completedQuestDialogueMode: 0
+  m_prettyPrintJson: 0
+  m_allowOnlyOneInstance: 1
+  m_hideDialogueUIOnStart: 1
+  m_hideJournalUIOnStart: 0
+  m_untrackCompletedQuests: 1
+  m_generatorSettings:
+    m_maxSimultaneousPlanners: 5
+    m_maxGoalActionChecksPerFrame: 100
+    m_maxStepsPerFrame: 100
+    m_defaultPlayerDomainType: {fileID: 11400000, guid: c0a712e689f630748b5f41affd4392c5,
+      type: 2}
+    m_goalSelectionMode:
+      m_criterion: 1
+      m_max: 1
+  m_debugSettings:
+    m_debug: 0
+    m_debugMessageSystem: 0
+    m_debugQuestGenerator: 0
+--- !u!114 &5710124807161229598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710124807149977850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15491f45d568daa4aa9500acbff68866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_questAlertUI: {fileID: 0}
+--- !u!114 &5710124807161219546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710124807149977850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e6a39a10aac9c499e74f0e05b975d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5710124807149977851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710124807149977850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695ff4a2e48efc14d9dde745bb5b6a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hud: {fileID: 5078323130587991434, guid: d2ce25ef6d3fd314a9406dc0edccb53c, type: 3}

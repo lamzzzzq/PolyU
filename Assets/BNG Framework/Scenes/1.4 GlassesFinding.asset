@@ -1,0 +1,1313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7889312379133727549
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a976671aaa12c2e428b2aac89a260302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_counterIndex: 0
+  m_counterValueMode: 0
+  m_requiredCounterValue:
+    m_valueType: 3
+    m_literalValue: 0
+    m_counterIndex: 0
+--- !u!114 &-6683751127708348964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u505A\u5F97\u975E\u5E38\u597D\uFF01\u591A\u8B1D\u4F60\u5E6B\u6211\u6435\u8FD4\u526F\u773C\u93E1\u3002\u6211\u800C\u5BB6\u6709\u5F97\u7747\u5831\u7D19\u5566\uFF0C\u4F60\u771F\u4FC2\u597D\u5E6B\u624B\u5440\uFF01"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-6480226494628196809
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5acd9aaaa3b44d5419945259bebbe84a, type: 3}
+  m_Name: IconQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_image: {fileID: 21300000, guid: 74a98d9e481042745988ca38465f0784, type: 3}
+  m_caption:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_count: 0
+  m_imageNameProxy: 
+--- !u!114 &-6434672008952360326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u505A\u5F97\u975E\u5E38\u597D\uFF01\u591A\u8B1D\u4F60\u5E6B\u6211\u6435\u8FD4\u526F\u773C\u93E1\u3002\u6211\u800C\u5BB6\u6709\u5F97\u7747\u5831\u7D19\u5566\uFF0C\u4F60\u771F\u4FC2\u597D\u5E6B\u624B\u5440\uFF01"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-6401098594209196640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c92f583e5cd314caa25bde3971b4fe, type: 3}
+  m_Name: MessageQuestAction
+  m_EditorClassIdentifier: 
+  m_senderSpecifier: 2
+  m_senderID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_targetSpecifier: 0
+  m_targetID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_message:
+    m_text: Meet
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_parameter:
+    m_text: 10Points
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_value:
+    m_valueType: 0
+    m_intValue: 0
+    m_stringValue: 
+--- !u!114 &-6169967379527594280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732e99ba3b575dc4dad61a69b0417c96, type: 3}
+  m_Name: QuestStateQuestCondition
+  m_EditorClassIdentifier: 
+  m_requiredQuestID:
+    m_text: 1.3TableFloorCleaning
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_requiredState: 2
+--- !u!114 &-5701422944495295187
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u505A\u5F97\u975E\u5E38\u597D\uFF01\u591A\u8B1D\u4F60\u5E6B\u6211\u6435\u8FD4\u526F\u773C\u93E1\u3002\u6211\u800C\u5BB6\u6709\u5F97\u7747\u5831\u7D19\u5566\uFF0C\u4F60\u771F\u4FC2\u597D\u5E6B\u624B\u5440\uFF01"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-5273297813102491497
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4e25cd4dc7a5b4c859b087bdeb27c1, type: 3}
+  m_Name: AudioQuestAction
+  m_EditorClassIdentifier: 
+  m_audioClip: {fileID: 8300000, guid: 14311145f6b7418448aa563812d16c7b, type: 3}
+  m_useAudioSourceOn:
+    m_type: 0
+    m_id: 
+  m_audioNameProxy: 
+--- !u!114 &-4766139951204927643
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u54CE\u5440\u2026\u2026 \u660E\u660E\u7434\u65E5\u5148\u7528\u5B8C\u526F\u773C\u93E1\u9ECE\u67B6\u561B\u3002"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-3962235568118791649
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u651E\u526F\u773C\u93E1\u6BD4\u963F\u5A46"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-3949650700933061255
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u60F3\u7747\u5831\u7D19\u5148\u569F\u5514\u898B\u773C\u93E1\uFF0C\u6435\u6975\u90FD\u6435\u5514\u5230\u3002\u4F60\u53EF\u5514\u53EF\u4EE5\u5E6B\u6211\u6435\u4E0B\u5440? "
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-3937063839217335699
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722a17429c6ad18448893e6cfdb4de76, type: 3}
+  m_Name: LuaQuestAction
+  m_EditorClassIdentifier: 
+  m_luaCode: Variable["Point"] = Variable["Point"] + 20
+--- !u!114 &-3069821177738692452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b543cc48d60f94eaf19a02d5f46611, type: 3}
+  m_Name: SetIndicatorQuestAction
+  m_EditorClassIdentifier: 
+  m_questID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_entityID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_questIndicatorState: 5
+--- !u!114 &-2618438185956952690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u5462\u500B\u5514\u4FC2\u6211\u526F\u773C\u93E1\u558E\uFF0C\u4E0D\u904E\u90FD\u5514\u8A72\u66EC\u4F60\u3002
+      +10Points"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-2512092084626531450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5682394e55a192147a020b9edf624e51, type: 3}
+  m_Name: MessageQuestCondition
+  m_EditorClassIdentifier: 
+  m_senderSpecifier: 0
+  m_senderID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_targetSpecifier: 0
+  m_targetID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_message:
+    m_text: Discussed Quest
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_parameter:
+    m_text: returnGlasses
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_value:
+    m_valueType: 0
+    m_intValue: 0
+    m_stringValue: 
+--- !u!114 &-2390194573392139309
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u5462\u500B\u5514\u4FC2\u6211\u526F\u773C\u93E1\u558E\uFF0C\u4E0D\u904E\u90FD\u5514\u8A72\u66EC\u4F60\u3002"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-1764432036124152411
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u505A\u5F97\u975E\u5E38\u597D\uFF01\u591A\u8B1D\u4F60\u5E6B\u6211\u6435\u8FD4\u526F\u773C\u93E1\u3002\u6211\u800C\u5BB6\u6709\u5F97\u7747\u5831\u7D19\u5566\uFF0C\u4F60\u771F\u4FC2\u597D\u5E6B\u624B\u5440\uFF01+20Points"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-1516250861401157550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b543cc48d60f94eaf19a02d5f46611, type: 3}
+  m_Name: SetIndicatorQuestAction
+  m_EditorClassIdentifier: 
+  m_questID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_entityID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_questIndicatorState: 5
+--- !u!114 &-1354483838331504337
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5682394e55a192147a020b9edf624e51, type: 3}
+  m_Name: MessageQuestCondition
+  m_EditorClassIdentifier: 
+  m_senderSpecifier: 0
+  m_senderID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_targetSpecifier: 0
+  m_targetID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_message:
+    m_text: Discussed Quest
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_parameter:
+    m_text: 1.4findGlasses
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_value:
+    m_valueType: 0
+    m_intValue: 0
+    m_stringValue: 
+--- !u!114 &-1315795277957892681
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c14ca0a3639b4a4f8084914f2e7227f, type: 3}
+  m_Name: SetQuestNodeStateQuestAction
+  m_EditorClassIdentifier: 
+  m_questID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_questNodeID:
+    m_text: 1.4reminder
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_state: 0
+--- !u!114 &-1129434304140381192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5682394e55a192147a020b9edf624e51, type: 3}
+  m_Name: MessageQuestCondition
+  m_EditorClassIdentifier: 
+  m_senderSpecifier: 0
+  m_senderID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_targetSpecifier: 0
+  m_targetID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_message:
+    m_text: Discussed Quest
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_parameter:
+    m_text: 1.4findGlasses
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_value:
+    m_valueType: 0
+    m_intValue: 0
+    m_stringValue: 
+--- !u!114 &-1129004272622378917
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c14ca0a3639b4a4f8084914f2e7227f, type: 3}
+  m_Name: SetQuestNodeStateQuestAction
+  m_EditorClassIdentifier: 
+  m_questID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_questNodeID:
+    m_text: 1.4reminder
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_state: 0
+--- !u!114 &-1103635083759409921
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732e99ba3b575dc4dad61a69b0417c96, type: 3}
+  m_Name: QuestStateQuestCondition
+  m_EditorClassIdentifier: 
+  m_requiredQuestID:
+    m_text: 1.3TableFloorCleaning
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_requiredState: 3
+--- !u!114 &-896491436734089857
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-759814581701926727
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5acd9aaaa3b44d5419945259bebbe84a, type: 3}
+  m_Name: IconQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_image: {fileID: 21300000, guid: 74a98d9e481042745988ca38465f0784, type: 3}
+  m_caption:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_count: 0
+  m_imageNameProxy: 
+--- !u!114 &-497433843708187835
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u505A\u5F97\u975E\u5E38\u597D\uFF01\u591A\u8B1D\u4F60\u5E6B\u6211\u6435\u8FD4\u526F\u773C\u93E1\u3002\u6211\u800C\u5BB6\u6709\u5F97\u7747\u5831\u7D19\u5566\uFF0C\u4F60\u771F\u4FC2\u597D\u5E6B\u624B\u5440\uFF01"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641a501636ec3644993211c008d9a8a4, type: 3}
+  m_Name: 1.4 GlassesFinding
+  m_EditorClassIdentifier: 
+  m_isInstance: 0
+  m_originalAsset: {fileID: 0}
+  m_fileVersion: 1
+  m_id:
+    m_text: 1.4findGlasses
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_title:
+    m_text: Find Glasses
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_icon: {fileID: 0}
+  m_group:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_labels: []
+  m_questGiverID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_isTrackable: 1
+  m_showInTrackHUD: 1
+  m_isAbandonable: 0
+  m_rememberIfAbandoned: 0
+  m_autostartConditionSet:
+    m_conditionList: []
+    m_conditionCountMode: 0
+    m_minConditionCount: 0
+    m_numTrueConditions: 0
+  m_offerConditionSet:
+    m_conditionList:
+    - {fileID: -6169967379527594280}
+    - {fileID: -1103635083759409921}
+    m_conditionCountMode: 0
+    m_minConditionCount: 0
+    m_numTrueConditions: 0
+  m_offerConditionsUnmetContentList: []
+  m_offerContentList:
+  - {fileID: 226254498259604677}
+  - {fileID: -3949650700933061255}
+  - {fileID: -6480226494628196809}
+  m_maxTimes: 1
+  m_timesAccepted: 0
+  m_cooldownSeconds: 3600
+  m_cooldownSecondsRemaining: 0
+  m_noRepeatIfSuccessful: 0
+  m_saveAllIfWaitingToStart: 0
+  m_state: 0
+  m_stateInfoList:
+  - m_actionList: []
+    m_categorizedContentList:
+    - m_contentList: []
+    - m_contentList: []
+    - m_contentList: []
+  - m_actionList:
+    - {fileID: 8551561310420447153, guid: 5a4e1cbf451b0fe4782dd0a27e463ee0, type: 2}
+    m_categorizedContentList:
+    - m_contentList: []
+    - m_contentList: []
+    - m_contentList:
+      - {fileID: 6287713968773164151}
+      - {fileID: 288789616404437111}
+  - m_actionList: []
+    m_categorizedContentList:
+    - m_contentList: []
+    - m_contentList: []
+    - m_contentList: []
+  - m_actionList: []
+    m_categorizedContentList:
+    - m_contentList: []
+    - m_contentList: []
+    - m_contentList: []
+  - m_actionList: []
+    m_categorizedContentList:
+    - m_contentList: []
+    - m_contentList: []
+    - m_contentList: []
+  - m_actionList: []
+    m_categorizedContentList:
+    - m_contentList: []
+    - m_contentList: []
+    - m_contentList: []
+  m_counterList:
+  - m_name:
+      m_text: glassesFake
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_currentValue: 0
+    m_randomizeInitialValue: 0
+    m_minValue: -1
+    m_maxValue: 1
+    m_updateMode: 1
+    m_messageEventList:
+    - m_senderSpecifier: 0
+      m_senderID:
+        m_text: 
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_targetSpecifier: 0
+      m_targetID:
+        m_text: 
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_message:
+        m_text: Got
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_parameter:
+        m_text: GlassesFake
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_operation: 2
+      m_literalValue: 1
+  - m_name:
+      m_text: glasses
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_currentValue: 0
+    m_randomizeInitialValue: 0
+    m_minValue: 0
+    m_maxValue: 1
+    m_updateMode: 1
+    m_messageEventList:
+    - m_senderSpecifier: 0
+      m_senderID:
+        m_text: 
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_targetSpecifier: 0
+      m_targetID:
+        m_text: 
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_message:
+        m_text: Got
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_parameter:
+        m_text: Glasses
+        m_stringAsset: {fileID: 0}
+        m_textTable: {fileID: 0}
+        m_textTableFieldID: 0
+      m_operation: 2
+      m_literalValue: 1
+  m_nodeList:
+  - m_id:
+      m_text: Quest-53940.start
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: Start
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 0
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    m_conditionSet:
+      m_conditionList: []
+      m_conditionCountMode: 0
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 010000000300000007000000
+    m_canvasRect:
+      serializedVersion: 2
+      x: 180
+      y: 48
+      width: 120
+      height: 48
+  - m_id:
+      m_text: getGlasses
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 4
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList:
+      - {fileID: -1129004272622378917}
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList:
+        - {fileID: -3962235568118791649}
+    m_conditionSet:
+      m_conditionList:
+      - {fileID: 7175187191663862123}
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 04000000
+    m_canvasRect:
+      serializedVersion: 2
+      x: 100.36771
+      y: 124.90109
+      width: 120
+      height: 48
+  - m_id:
+      m_text: 1.4Success
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 1
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    m_conditionSet:
+      m_conditionList: []
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 
+    m_canvasRect:
+      serializedVersion: 2
+      x: 82
+      y: 322
+      width: 120
+      height: 35
+  - m_id:
+      m_text: getGlassesFake
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 4
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList:
+      - {fileID: -1315795277957892681}
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList:
+        - {fileID: 814540918626539611}
+    m_conditionSet:
+      m_conditionList:
+      - {fileID: -7889312379133727549}
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 05000000
+    m_canvasRect:
+      serializedVersion: 2
+      x: 247.73416
+      y: 128.41838
+      width: 120
+      height: 48
+  - m_id:
+      m_text: returnGlasses
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 4
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList: []
+    - m_actionList:
+      - {fileID: -3069821177738692452}
+      m_categorizedContentList:
+      - m_contentList:
+        - {fileID: -1764432036124152411}
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList:
+      - {fileID: 1189760860311951203}
+      - {fileID: -5273297813102491497}
+      - {fileID: -3937063839217335699}
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    m_conditionSet:
+      m_conditionList:
+      - {fileID: -1354483838331504337}
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 02000000
+    m_canvasRect:
+      serializedVersion: 2
+      x: 81
+      y: 223.46469
+      width: 120
+      height: 48
+  - m_id:
+      m_text: returnGlassesFake
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 4
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList:
+      - {fileID: -1516250861401157550}
+      m_categorizedContentList:
+      - m_contentList:
+        - {fileID: -2618438185956952690}
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList:
+      - {fileID: -6401098594209196640}
+      - {fileID: 1407127255714433509}
+      - {fileID: 4326944988186130484}
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    m_conditionSet:
+      m_conditionList:
+      - {fileID: -1129434304140381192}
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 06000000
+    m_canvasRect:
+      serializedVersion: 2
+      x: 251
+      y: 230
+      width: 120
+      height: 48
+  - m_id:
+      m_text: 1.4Failure
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 2
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    m_conditionSet:
+      m_conditionList: []
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 
+    m_canvasRect:
+      serializedVersion: 2
+      x: 255
+      y: 318
+      width: 120
+      height: 35
+  - m_id:
+      m_text: 1.4reminder
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 4
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList:
+        - {fileID: -4766139951204927643}
+        - {fileID: -759814581701926727}
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    m_conditionSet:
+      m_conditionList: []
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 
+    m_canvasRect:
+      serializedVersion: 2
+      x: 446.30707
+      y: 133.16513
+      width: 120
+      height: 48
+  m_goalEntityTypeName: 
+  m_nextContentID: 0
+--- !u!114 &226254498259604677
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47e1bb9cdd9a474c8d3f5d555d7533a, type: 3}
+  m_Name: HeadingTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_useQuestTitle: 1
+  m_headingText:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_headingLevel: 1
+--- !u!114 &288789616404437111
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: 'Search different places at home;
+
+      Find the correct glasses.
+
+'
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &814540918626539611
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u651E\u526F\u773C\u93E1\u6BD4\u963F\u5A46"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &1189760860311951203
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c92f583e5cd314caa25bde3971b4fe, type: 3}
+  m_Name: MessageQuestAction
+  m_EditorClassIdentifier: 
+  m_senderSpecifier: 2
+  m_senderID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_targetSpecifier: 0
+  m_targetID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_message:
+    m_text: Meet
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_parameter:
+    m_text: 20Points
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_value:
+    m_valueType: 0
+    m_intValue: 0
+    m_stringValue: 
+--- !u!114 &1407127255714433509
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4e25cd4dc7a5b4c859b087bdeb27c1, type: 3}
+  m_Name: AudioQuestAction
+  m_EditorClassIdentifier: 
+  m_audioClip: {fileID: 8300000, guid: 14311145f6b7418448aa563812d16c7b, type: 3}
+  m_useAudioSourceOn:
+    m_type: 0
+    m_id: 
+  m_audioNameProxy: 
+--- !u!114 &3649570627185794024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: "\u5462\u500B\u5514\u4FC2\u6211\u526F\u773C\u93E1\u558E\uFF0C\u4E0D\u904E\u90FD\u5514\u8A72\u66EC\u4F60\u3002"
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &4326944988186130484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722a17429c6ad18448893e6cfdb4de76, type: 3}
+  m_Name: LuaQuestAction
+  m_EditorClassIdentifier: 
+  m_luaCode: Variable["Point"] = Variable["Point"] + 10
+--- !u!114 &6287713968773164151
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47e1bb9cdd9a474c8d3f5d555d7533a, type: 3}
+  m_Name: HeadingTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_useQuestTitle: 1
+  m_headingText:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_headingLevel: 1
+--- !u!114 &7175187191663862123
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a976671aaa12c2e428b2aac89a260302, type: 3}
+  m_Name: CounterQuestCondition
+  m_EditorClassIdentifier: 
+  m_counterIndex: 1
+  m_counterValueMode: 0
+  m_requiredCounterValue:
+    m_valueType: 3
+    m_literalValue: 1
+    m_counterIndex: 1

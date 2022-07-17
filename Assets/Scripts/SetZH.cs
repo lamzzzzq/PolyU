@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class SetZH : MonoBehaviour
 {
+    //test 1
     void Start()
     {
         Button btn = this.GetComponent<Button>();

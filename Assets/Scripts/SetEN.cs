@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SetEN : MonoBehaviour
 {
-
+    // test 1
     void Start()
     {
         Button btn = this.GetComponent<Button>();

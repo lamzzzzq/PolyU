@@ -8,6 +8,7 @@ public class Instanciate : MonoBehaviour
     //public Transform genPoint;
     public Transform cloneObj;
     public int foodValue;
+    public GameObject UIObject;
 
     
 

@@ -129,8 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_contentID: -1
   m_bodyText:
-    m_text: The sandwich is not that perfect, but I am still love it! Appreciate
-      your work! +20Pts
+    m_text: Thank you so much for preparing a breakfast! It looks good.
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
@@ -520,7 +519,10 @@ MonoBehaviour:
       m_textTableFieldID: 0
     m_stateInfoList:
     - m_actionList: []
-      m_categorizedContentList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
     - m_actionList: []
       m_categorizedContentList:
       - m_contentList:
@@ -540,8 +542,8 @@ MonoBehaviour:
     m_childIndexList: 
     m_canvasRect:
       serializedVersion: 2
-      x: 539.8762
-      y: 167.86598
+      x: 700.8762
+      y: 163.86598
       width: 120
       height: 48
   - m_id:
@@ -847,7 +849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_contentID: -1
   m_bodyText:
-    m_text: Wow such a wonderful sandwich! +50Pts
+    m_text: Thank you so much for preparing such a nice breakfast. It looks so great!
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
@@ -901,7 +903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722a17429c6ad18448893e6cfdb4de76, type: 3}
   m_Name: LuaQuestAction
   m_EditorClassIdentifier: 
-  m_luaCode: Variable["Point"] = Variable["Point"] + 20
+  m_luaCode: Variable["Point"] = Variable["Point"] + 40
 --- !u!114 &8044117344068858118
 MonoBehaviour:
   m_ObjectHideFlags: 1

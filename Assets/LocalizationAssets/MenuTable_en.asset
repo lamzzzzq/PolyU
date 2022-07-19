@@ -26,5 +26,25 @@ MonoBehaviour:
     m_Localized: START
     m_Metadata:
       m_Items: []
+  - m_Id: 3295648712847360
+    m_Localized: Bread on the Bottom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3296299907903488
+    m_Localized: Tomato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3296366941270016
+    m_Localized: Meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3296460415528960
+    m_Localized: Cheese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3301830055784448
+    m_Localized: Bread on the Top
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
